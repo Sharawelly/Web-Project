@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    transition: .5s;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.368);
+
+    width: 70px;
+    height: 100vh;
+    border-radius: 0 20px 20px 0;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+.menu:hover{
+    width: 200px;
+}
+.profile{
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    overflow: hidden;
+}
+.profile p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu .img_box{
+    margin: 10px;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: solid white ;
+}
+.img_box img{
+    width: 100%;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    margin: 7px;
+    width:100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+.menu ul li a i{
+    font-size: 40px;
+}
+
+.menu ul li a:hover, .box:hover, th:hover, td:hover , .is_active{
+    background-color: black;
+}
+
+.logout{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.content{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: space-around;
+}
+.content h1{
+    justify-content: space-around;
+    
+}
+/* .content .title-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(52, 155, 155);
+    border-radius: 10px;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.338);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius:10px ;
+}
+.box i{
+    font-size: 40px;
+}
+table{
+    text-align: center;
+    border-spacing: 10px;
+    width: 100%;
+}
+th{
+    background-color: #129;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+td{
+    background-color: green;
+    padding: 5px;
+    border-radius: 7px;
+} */

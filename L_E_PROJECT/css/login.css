@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: .5s;
+
+}
+
+.text img{
+    width:300px;
+}
+.text{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+form{
+background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px ;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+form input{
+    border-radius: 5px;
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+}
+
+form .login , .new_email{
+    width : 350px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+form .creat{
+    width : 350px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(129, 203, 19);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.new_email{
+    background-color: rgb(120, 171, 43);
+    width: 200px;
+}
+i{
+    padding: 10px;
+    margin: 10px;
+    size: 50px;
+}

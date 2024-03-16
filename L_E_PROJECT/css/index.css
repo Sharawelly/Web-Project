@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+
+}
+
+
+
+ul a{
+width: 10px;
+height: 10px;
+background-color: gray;
+text-decoration: none;
+list-style: none;
+}
+.is_admin{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;  
+    justify-content: space-between;
+}
+.is_admin a{
+    width: 80px;
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.is_admin a:hover{
+    width: 100px;
+    height: 80px;
+}
