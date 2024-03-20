@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/Home.css">  
+    <title>View Books</title>
+</head>
+<body>
+    <aside class="menu" style="position: fixed;">
+        <ul>
+            <li class="profile">
+                
+                <p>Abdelrahman</p>
+            </li>
+            <li>
+                <a href="userHome.html">
+                    <i class = 'bx bx-home'></i>
+                    <p>Home</p>
+                </a>
+            </li>
+            <li>
+                <a href="view_books_user.html" class = "is_active">
+                    <i class='bx bxs-book'></i>
+                    <p>Books</p>
+                </a>
+            </li>
+            <li>
+                <a href="view_borrowed_book.html">
+                    <i class='bx bx-downvote'></i>
+                    <p>Borrowed</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class = 'logout'>
+                    <i class='bx bxs-door-open'></i>
+                    <p>logout</p>
+                </a>
+            </li>
+        </ul>
+    </aside>
+<div class="content">
+    <nav dir="rtl">
+        <form>
+            <div>
+                <input type="text" placeholder=" search..">
+                <button type="submit"><i class="bx bx-search"></i></button>
+            </div>
+          </form>
+    </nav>
+    <div class="title-info">
+        <h1>Book detail</h1>
+        <i class="bx bx-book" style="font-size: 35px;"></i>
+    </div>
+</div>
+</body>
+</html>
